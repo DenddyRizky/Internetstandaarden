@@ -1,0 +1,55 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    /* background: yellow;  TEST */
+}
+
+main{
+    /* background: salmon;  TEST */
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: skyblue; /* TEST */
+    overflow:  hidden;
+}
+
+.navbar li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1em 5em;
+}
+
+.navbar li.active{
+    background-color: white; /* TEST */
+}
+
+.anime-entry episode{
+    display: inline;
+}
+
+.anime-entry genre{
+    display: inline;
+}
+
+.anime-entry h2{
+    display: inline;
+    font-style: normal;
+}
+
+.anime-entry{
+    background: aqua; /* TEST */
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.anime-entry img{
+    width: 15%;
+    height: 10%;
+}
