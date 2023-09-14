@@ -30,11 +30,11 @@ a{
     background-color: white; /* TEST */
 }
 
-.anime-entry episode{
+.anime-entry .episode{
     display: inline;
 }
 
-.anime-entry genre{
+.anime-entry .genre{
     display: inline;
 }
 
