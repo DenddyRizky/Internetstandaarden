@@ -53,3 +53,24 @@ a{
     width: 15%;
     height: 10%;
 }
+
+#favorites{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.favorite-entry{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, aqua, skyblue);
+    scroll-snap-align: start;
+}
+
+.favorite-entry img{
+    width: 20em;
+}
