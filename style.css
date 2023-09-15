@@ -19,15 +19,19 @@ a{
     overflow:  hidden;
 }
 
+.navbar ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
 .navbar li{
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 1em 5em;
+    flex-grow: 1;
 }
 
 .navbar li.active{
     background-color: white; /* TEST */
+    flex-grow: 2;
 }
 
 .anime-entry .episode{
@@ -44,6 +48,7 @@ a{
 }
 
 .anime-entry{
+    display: flex;
     background: aqua; /* TEST */
     margin-top: 5em;
     margin-bottom: 5em;
