@@ -1,5 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #C4FFF9;
 }
 
 header{
@@ -10,12 +11,26 @@ main{
     /* background: salmon;  TEST */
 }
 
+#home{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+#intro{
+    width: 50%;
+}
+
+#slideshow{
+    width: 50%;
+}
+
 a{
     text-decoration: none;
 }
 
 .navbar{
-    background-color: skyblue; /* TEST */
+    background-color: #07BEB8; /* TEST */
     overflow:  hidden;
 }
 
@@ -34,29 +49,22 @@ a{
     flex-grow: 2;
 }
 
-.anime-entry .episode{
-    display: inline;
-}
-
-.anime-entry .genre{
-    display: inline;
-}
-
 .anime-entry h2{
-    display: inline;
     font-style: normal;
 }
 
 .anime-entry{
     display: flex;
-    background: aqua; /* TEST */
+    flex-wrap: wrap;
+    gap: 1em;
+    background: #9CEAEF; /* TEST */
     margin-top: 5em;
     margin-bottom: 5em;
 }
 
 .anime-entry img{
     width: 15%;
-    height: 10%;
+    padding: .5em;
 }
 
 #favorites{
@@ -72,7 +80,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, aqua, skyblue);
+    background: linear-gradient(45deg, aqua, skyblue); /* TEST */
     scroll-snap-align: start;
 }
 
