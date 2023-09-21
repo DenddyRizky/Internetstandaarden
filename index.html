@@ -21,18 +21,12 @@
             </nav>
         </header>
         <main>
-            <h1>Home</h1>
             <section id="home">
                 <section id="intro">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.</p>
+                    <h1>My anime portfolio</h1>
+                    <p>Welcome to my personal anime portfolio. Where I list the anime's
+                        I have watched, my favorties among them and some of my
+                        favorite clips</p>
                 </section>
                 <section id="slideshow">
                     <img src="images/One Piece.jpeg" alt="OP" class="slide">
@@ -45,6 +39,7 @@
 
             <script>
                 var index = 0;
+                var rotationTime = 3000; 
                 slideShow();
 
                 function slideShow(){
@@ -59,14 +54,14 @@
                         index = 1;
                     }
                     slides[index-1].style.display = "block";
-                    setTimeout(slideShow, 2000);
+                    setTimeout(slideShow, rotationTime);
 
                 }
             </script>
 
         </main>
         <footer>
-            <a href="bronvermelding.html">bronvermelding</a>
+            <a href="bronvermelding.html" class="bron">bronvermelding</a>
         </footer>
     </body>
 </html>
