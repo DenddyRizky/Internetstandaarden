@@ -135,3 +135,17 @@ footer{
 }
 
 /* ------------------------------FAVO------------------------------ */
+/* ------------------------------CLIP------------------------------ */
+
+.clips{
+    overflow: hidden;
+    display: flex;
+}
+
+video{
+    filter: blur(10px);
+}
+
+video:active, video:hover {
+    filter: blur(0px);
+}
