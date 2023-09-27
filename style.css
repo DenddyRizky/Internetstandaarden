@@ -75,10 +75,10 @@ footer{
 
 .anime-entry{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 1em;
     background: #9CEAEF; /* TEST */
-    margin: 5em 2em 5em 2em;
+    margin: 5em 2em;
     align-content: flex-start;
     border-radius: 20px;
 }
@@ -102,6 +102,12 @@ footer{
 .anime-entry img{
     width: 15%;
     padding: 1em;
+}
+
+.anime-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /* ------------------------------LIST------------------------------ */
