@@ -53,16 +53,16 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 2em;
-    height: 100%;
+    margin: 0 2em;
+    height: 82vh
 }
 
 #intro{
-    width: 50%;
+    width: 45%;
 }
 
 #slideshow{
-    width: 50%;
+    /* width: 50%; */
     height: 350px;
 }
 
