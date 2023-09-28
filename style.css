@@ -100,7 +100,7 @@ footer{
 }
 
 .anime-entry img{
-    width: 15%;
+    width: 20%;
     padding: 1em;
 }
 
@@ -138,14 +138,16 @@ footer{
 /* ------------------------------CLIP------------------------------ */
 
 .clips{
-    overflow: hidden;
+    overflow: hidden, auto;
+    white-space: nowrap;
     display: flex;
+    /* justify-content: space-around; */
 }
 
 video{
     filter: blur(10px);
 }
 
-video:active, video:hover {
+video:focus, video:hover {
     filter: blur(0px);
 }
