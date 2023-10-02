@@ -132,6 +132,7 @@ footer {
     background: linear-gradient(45deg, aqua, skyblue);
     /* TEST */
     scroll-snap-align: start;
+    /* bron staat in bronvermelding */
 }
 
 .favorite-entry img {
@@ -141,7 +142,7 @@ footer {
 /* ------------------------------FAVO------------------------------ */
 /* ------------------------------CLIP------------------------------ */
 
-.clips {
+#clips {
     overflow: hidden, auto;
     white-space: nowrap;
     display: flex;
