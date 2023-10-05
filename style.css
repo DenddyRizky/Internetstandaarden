@@ -20,24 +20,24 @@ footer {
     background: #07BEB8;
 }
 
-.navbar {
+nav {
     background-color: #07BEB8;
     /* TEST */
     overflow: hidden;
 }
 
-.navbar ul {
+nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     margin: 1em;
 }
 
-.navbar li {
+nav li {
     flex-grow: 1;
 }
 
-.navbar li.active {
+nav li.active {
     background-color: white;
     /* TEST */
     flex-grow: 2;
@@ -60,7 +60,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin: 0 2em;
-    height: 82vh
+    height: 86vh
 }
 
 #intro {
@@ -133,8 +133,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, aqua, skyblue);
-    /* TEST */
+    background: linear-gradient(45deg, #C4FFF9, skyblue);
     scroll-snap-align: start;
     /* bron staat in bronvermelding */
 }
@@ -169,14 +168,17 @@ footer {
 /* ------------------------------CLIP------------------------------ */
 
 #clips_container {
-    overflow: hidden, auto;
+    overflow: auto;
     white-space: nowrap;
     display: flex;
+    align-items: center;
     /* justify-content: space-around; */
+    height: 78vh;
 }
 
 video {
     filter: blur(10px);
+    padding: 1em;
 }
 
 video:focus,
