@@ -17,4 +17,4 @@ function slideShow() {
     setTimeout(slideShow, rotationTime);
 
 }
-// Bron  staat in bronvermelding
+// Bron  https://www.w3schools.com/w3css/w3css_slideshow.asp

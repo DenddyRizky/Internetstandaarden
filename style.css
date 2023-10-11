@@ -135,7 +135,7 @@ nav li.active {
     justify-content: center;
     background: linear-gradient(45deg, #C4FFF9, skyblue);
     scroll-snap-align: start;
-    /* bron staat in bronvermelding */
+    /* bron https://www.youtube.com/watch?v=KAG5wNPdoTw */
 }
 
 .favorite-entry img {
